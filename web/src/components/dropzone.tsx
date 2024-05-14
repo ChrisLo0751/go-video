@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useDropzone } from 'react-dropzone';
-import ReactPlayer from 'react-player';
 import VideoCard from './videoCar';
 import './dropzone.css';
 
@@ -50,6 +49,14 @@ const VideoUploader: React.FC<UploadedProps> = (props) => {
         setSelectedVideo(null);
     };
 
+    const uploadFiles = () => { 
+        if(videos.length === 0){
+            alert('请先上传视频');
+            return;
+        }
+        
+    }
+
     return (
         <div>
             <h2>文件上传</h2>
@@ -60,7 +67,7 @@ const VideoUploader: React.FC<UploadedProps> = (props) => {
             <h2>视频内容区</h2>
             <div className="button-container">
                 <button className="clear-button"  onClick={clearVideos}>全部清空</button>
-                <button className="compose-button">合成视频</button>
+                <button className="compose-button" onClick={uploadFiles} >合成视频</button>
             </div>
             <div className="video-container">
                 {videos.map((video, index) => (
