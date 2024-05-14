@@ -1,0 +1,89 @@
+/* dropzone.css */
+
+.dropzone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dropzone:hover {
+    border-color: #aaa;
+}
+
+.dropzone .message {
+    font-size: 18px;
+    color: #888;
+}
+
+.dropzone .message:hover {
+    color: #555;
+}
+
+.dropzone .icon {
+    font-size: 48px;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.dropzone .icon:hover {
+    color: #aaa;
+}
+
+.dropzone .button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.dropzone .button:hover {
+    background-color: #0056b3;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+.clear-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.clear-button:hover {
+    background-color: #d32f2f; 
+}
+
+.compose-button {
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.compose-button:hover {
+    background-color: #0b7dda;
+}
+  
