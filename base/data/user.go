@@ -1,7 +1,7 @@
 package data
 
 import (
-	"go-video/user-web/model"
+	"go-video/base/model"
 
 	"gorm.io/gorm"
 )

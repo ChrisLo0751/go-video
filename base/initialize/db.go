@@ -2,8 +2,8 @@ package initialize
 
 import (
 	"fmt"
-	"go-video/user-web/config"
-	"go-video/user-web/model"
+	"go-video/base/config"
+	"go-video/base/model"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

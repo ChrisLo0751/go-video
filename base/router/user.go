@@ -1,7 +1,7 @@
 package router
 
 import (
-	"go-video/user-web/api"
+	"go-video/base/api"
 
 	"github.com/gin-gonic/gin"
 )

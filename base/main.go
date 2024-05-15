@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"go-video/user-web/config"
-	"go-video/user-web/initialize"
+	"go-video/base/config"
+	"go-video/base/initialize"
 	"log"
 
 	"go.uber.org/zap"
@@ -14,7 +14,7 @@ var (
 )
 
 func main() {
-	cfg, err := config.LoadConfig("./user-web/config")
+	cfg, err := config.LoadConfig("./base/config")
 	if err != nil {
 		log.Fatalf("Could not load config: %v", err)
 	}

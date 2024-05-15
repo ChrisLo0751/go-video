@@ -2,9 +2,9 @@ package service
 
 import (
 	"fmt"
-	"go-video/user-web/data"
-	"go-video/user-web/dto"
-	"go-video/user-web/model"
+	"go-video/base/data"
+	"go-video/base/dto"
+	"go-video/base/model"
 )
 
 type UserService interface {

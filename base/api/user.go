@@ -1,8 +1,8 @@
 package api
 
 import (
-	"go-video/user-web/dto"
-	"go-video/user-web/service"
+	"go-video/base/dto"
+	"go-video/base/service"
 	"net/http"
 	"strconv"
 
